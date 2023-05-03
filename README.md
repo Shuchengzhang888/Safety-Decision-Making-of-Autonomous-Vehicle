@@ -43,14 +43,27 @@ https://user-images.githubusercontent.com/103908146/235841008-be8f00c8-8285-448a
 ### LSTM-Attention-based Model in RaceTrack Highway Environment
 https://user-images.githubusercontent.com/103908146/235841232-6aca0695-f93c-41ed-b9d7-1b037bf301c0.mp4
 
+## Results
+From the following figure, it can be observed that decision-making models based on DDQN have better performance compared with the reference model. Further, this enhancement can be attributed to the higher average speed achieved during driving. 
+The improvement of the attention-based model is due to its ability to focus on objects that would significantly impact the model’s decision. 
+The LSTM layer in the model resulted in a slight enhancement of its performance, Following 500 batches (12800 epochs) of training, our model's performance index improved to 1.18.
+
+<img width="724" alt="Screenshot 2023-05-03 at 2 08 27 AM" src="https://user-images.githubusercontent.com/103908146/235842948-49a3466b-6de5-4b33-a1af-85ef10893fec.png">
+
 
 ## Partial Reference
 [1] Chen, Yilun, et al. "Attention-based hierarchical deep reinforcement learning for lane change behaviors in autonomous driving." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2019.
+
 [2] Hoel, Carl-Johan, Krister Wolff, and Leo Laine. "Automated speed and lane change decision making using deep reinforcement learning." 2018 21st International Conference on Intelligent Transportation Systems (ITSC). IEEE, 2018.
+
 [3] Van Hasselt, Hado, Arthur Guez, and David Silver. "Deep reinforcement learning with double q-learning.”  Proceedings of the AAAI conference on artificial intelligence. Vol. 30. No. 1. 2016.
+
 [4] M. Treiber, A. Hennecke, and D. Helbing, “Congested Traffic States in Empirical Observations and Microscopic Simulations,” Phys. Rev. E, vol. 62, pp. 1805–1824, 2000.
+
 [5] A. Kesting, M. Treiber, and D. Helbing, “General lane-changing model mobil for car-following models,” Transportation Research Record, vol. 1999, pp. 86–94, 2007.
+
 [6] Admin (2022) Connected vehicle: Features & trends, Telematics Wire. Available at: https://www.telematicswire.net/connected-vehicle-features-trends/ (Accessed: March 21, 2023). 
+
 [7] Leurent, E. (2018). An Environment for Autonomous Driving Decision-Making (Version 1.4) [Computer software]. https://github.com/eleurent/highway-env
 
 
