@@ -14,31 +14,31 @@ Training and testing environmrnt is based on OpenAI/Gym and highway-env packages
 
 ```pip install highway-env```
 
-```git clone```
+```git clone https://github.com/Shuchengzhang888/Safety-Decision-Making-of-Autonomous-Vehicle.git```
 
 
-## Demo
+## Demo Videos
 
-#IDM & MOBIL Reference Model in Straight Highway Environment
+###IDM & MOBIL Reference Model in Straight Highway Environment
 https://user-images.githubusercontent.com/103908146/235839735-7130ee63-de80-40c5-8d2d-f91e2ab4f147.mp4
 
 
-# FCN-based Model in Straight Highway Environment
+### FCN-based Model in Straight Highway Environment
 https://user-images.githubusercontent.com/103908146/235840707-fe2f74dd-72ac-43e2-8d22-2f31050cb30d.mp4
 
 
 
-# LSTM-Attention-based Model in Straight Highway Environment
+### LSTM-Attention-based Model in Straight Highway Environment
 https://user-images.githubusercontent.com/103908146/235840762-0ec4d676-b112-4211-bd18-590d9cf54782.mp4
 
 
 
-# LSTM-Attention-based Model in Rectangular Highway Environment
+### LSTM-Attention-based Model in Rectangular Highway Environment
 https://user-images.githubusercontent.com/103908146/235841008-be8f00c8-8285-448a-87c5-c591a560d9b1.mp4
 
 
 
-# LSTM-Attention-based Model in RaceTrack Highway Environment
+### LSTM-Attention-based Model in RaceTrack Highway Environment
 https://user-images.githubusercontent.com/103908146/235841232-6aca0695-f93c-41ed-b9d7-1b037bf301c0.mp4
 
 
