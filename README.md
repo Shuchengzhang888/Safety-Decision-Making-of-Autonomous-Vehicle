@@ -39,6 +39,21 @@ code/result_record.py -> record experiment results
 
 
 ## Demo
+
+https://user-images.githubusercontent.com/103908146/235839735-7130ee63-de80-40c5-8d2d-f91e2ab4f147.mp4
+
+
+
+
+
+
+
+
+
+
+
+
+
 demo -> demo video
 
 The Demo shows the results of reference model, RL model, RL model with t stage prediction input, RL model with 2t stage prediction input and RL model with 3t stage prediction input.
