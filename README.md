@@ -20,7 +20,9 @@ Training and testing environmrnt is based on OpenAI/Gym and highway-env packages
 ## Demo Videos
 
 ### IDM & MOBIL Reference Model in Straight Highway Environment
-https://user-images.githubusercontent.com/103908146/235839735-7130ee63-de80-40c5-8d2d-f91e2ab4f147.mp4
+https://user-images.githubusercontent.com/103908146/235841830-a0ef13a1-8db3-4563-a59b-07498a2975a1.mp4
+
+
 
 
 ### FCN-based Model in Straight Highway Environment
