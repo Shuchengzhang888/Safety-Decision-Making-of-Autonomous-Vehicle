@@ -1,0 +1,10 @@
+{
+    "id": "highway-v0",
+    "import_module": "highway_env",
+    "simulation_frequency": 5,
+    "policy_frequency": 2,
+    "observation": {
+        "type": "Kinematic_Observation_Traj3D_HW"
+    }
+    
+}

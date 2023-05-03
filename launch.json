@@ -1,0 +1,63 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd": "./scripts/",
+            "args": [
+                "evaluate",
+                // "--train",
+                // "--name-from-config",
+                // "--episodes=900",
+                "--test",
+                "--episodes=110",
+
+                //hw_fcn
+                // "configs/HighwayEnv/hw_fcn.json",
+                // "configs/HighwayEnv/agents/DQNAgent/ddqn.json",
+                // "--recover-from",
+                // "./out/HighwayEnv/DQNAgent/fcn/checkpoint-500.tar",
+
+                //C_fcn
+                // "configs/HighwayEnv/circle_fcn.json",
+                // "configs/HighwayEnv/agents/DQNAgent/ddqn.json",
+                // "--recover-from",
+                // "./out/HighwayEnvCircle/DQNAgent/fcn/checkpoint-200.tar",
+
+                //rt_fcn
+                // "configs/HighwayEnv/rt_fcn.json",
+                // "configs/HighwayEnv/agents/DQNAgent/ddqn.json",
+                // "--recover-from",
+                // "./out/HighwayEnvRacetrack/DQNAgent/fcn/checkpoint-200.tar",
+
+                //hw_att
+                // "configs/HighwayEnv/hw_att.json",
+                // "configs/HighwayEnv/agents/DQNAgent/ego_attention.json",
+                // "--recover-from",
+                // "./out/HighwayEnv/DQNAgent/ego_attention_hw/checkpoint-500.tar",
+
+                //hw_lstm_att
+                // "configs/HighwayEnv/hw_lstm_att.json",
+                // "configs/HighwayEnv/agents/DQNAgent/lstm_attention.json",
+                // "--recover-from",
+                // "./out/HighwayEnv/DQNAgent/lstm_attention_hw/checkpoint-500.tar",
+                
+                //rt_lstm_att
+                // "configs/HighwayEnv/rt_lstm_att.json",
+                // "configs/HighwayEnv/agents/DQNAgent/lstm_attention_rt.json",
+                // "--recover-from",
+                // "./out/HighwayEnvRacetrack/DQNAgent/lstm_att/checkpoint-300.tar",
+                
+                //c_lstm_att
+                "configs/HighwayEnv/circle_lstm_att.json",
+                "configs/HighwayEnv/agents/DQNAgent/lstm_attention_rt.json",
+                "--recover-from",
+                "./out/HighwayEnvCircle/DQNAgent/lstm_att/checkpoint-300.tar",
+            ],
+        }
+    ]
+}

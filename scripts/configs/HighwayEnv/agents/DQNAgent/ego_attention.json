@@ -1,0 +1,35 @@
+{
+    "base_config": "configs/HighwayEnv/agents/DQNAgent/ddqn.json",
+    "model": {
+        "type": "EgoAttentionNetwork",
+        "embedding_layer": {
+            "type": "MultiLayerPerceptron",
+            "layers": [64, 64],
+            "reshape": false,
+            "in": 9
+        },
+        "others_embedding_layer": {
+            "type": "MultiLayerPerceptron",
+            "layers": [64, 64],
+            "reshape": false,
+            "in": 9
+        },
+        "self_attention_layer": null,
+        "attention_layer": {
+            "type": "EgoAttention",
+            "feature_size": 64,
+            "heads": 2
+        },
+        "output_layer": {
+            "type": "MultiLayerPerceptron",
+            "layers": [64, 64],
+            "reshape": false
+        }
+    },
+    "gamma": 0.8,
+    "batch_size": 256,
+    "memory_capacity": 20000,
+    "target_update": 256,
+    "processes": 6,
+    "device": "cpu"
+}

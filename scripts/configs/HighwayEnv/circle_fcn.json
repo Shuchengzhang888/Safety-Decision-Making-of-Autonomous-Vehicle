@@ -1,0 +1,10 @@
+{
+    "id": "highway-circle-v0",
+    "import_module": "highway_env",
+    "simulation_frequency": 4,
+    "policy_frequency": 2,
+    "observation": {
+        "type": "Kinematic_Observation_Traj_C"
+    }
+    
+}
