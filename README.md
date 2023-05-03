@@ -66,12 +66,4 @@ The LSTM layer in the model resulted in a slight enhancement of its performance,
 
 [7] Leurent, E. (2018). An Environment for Autonomous Driving Decision-Making (Version 1.4) [Computer software]. https://github.com/eleurent/highway-env
 
-[8] @misc{rl-agents,
-  author = {Leurent, Edouard},
-  title = {rl-agents: Implementations of Reinforcement Learning algorithms},
-  year = {2018},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/eleurent/rl-agents}},
-}
-
+[8] Leurent, E. (2018). Implementations of Reinforcement Learning and Planning Algorithms [Computer software]. https://github.com/eleurent/rl-agents 
